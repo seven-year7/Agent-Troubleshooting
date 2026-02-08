@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: RealTimeCommunicationService
+  cloud:
+    nacos:
+      server-addr: localhost:18375
+      username: nacos
+      password: Xp4#tG7!vQ
+      
+#      discovery:
+#        ip: localhost
+  redis:
+    host: localhost
+    port: 59000
+    password: e65K4t8w2
+
+server:
+  port: 8083
+netty:
+  port: 9000
+
+logging:
+  config: classpath:logback-spring.xml
+sentry:
+  dsn: https://37c6a9ff7219064f8fafed1b6aeaa866@o4505991297892352.ingest.us.sentry.io/4508312507645952
+
+
+
+
